@@ -1,0 +1,15 @@
+[project]
+name = "comfyui_llmvision"
+description = "This repository provides integration of GPT-4 and Claude 3 models into ComfyUI, allowing for both image and text-based interactions within the ComfyUI workflow."
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["https://github.com/AppleBotzz/Backup-Anthropic-Builds/raw/main/anthropic-0.26.1-py3-none-any.whl", "https://github.com/AppleBotzz/Backup-OpenAI-Builds/raw/main/openai-1.30.2-py3-none-any.whl"]
+
+[project.urls]
+Repository = "https://github.com/AppleBotzz/ComfyUI_LLMVISION"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "applebotzz"
+DisplayName = "ComfyUI_LLMVISION"
+Icon = ""
